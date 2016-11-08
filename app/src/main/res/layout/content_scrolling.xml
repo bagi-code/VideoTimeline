@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.bagicode.www.videotimeline.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <com.vipul.hp_hp.timelineview.TimelineView
+                android:paddingLeft="30dp"
+                app:marker="@mipmap/ic_timeline"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:marker_size="20dp"
+                app:line_size="1dp"
+                app:line="@color/colorLine"/>
+
+            <TextView
+                android:textColor="@color/colorLine"
+                android:text="16 PM"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Meeting UI/UX"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="15dp"
+                    android:paddingLeft="20dp"
+                    android:text="Mobile App"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <com.vipul.hp_hp.timelineview.TimelineView
+                android:paddingLeft="30dp"
+                app:marker="@mipmap/ic_timeline"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:marker_size="20dp"
+                app:line_size="1dp"
+                app:line="@color/colorLine"/>
+
+            <TextView
+                android:textColor="@color/colorLine"
+                android:text="16 PM"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Meeting UI/UX"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="15dp"
+                    android:paddingLeft="20dp"
+                    android:text="Mobile App"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <com.vipul.hp_hp.timelineview.TimelineView
+                android:paddingLeft="30dp"
+                app:marker="@mipmap/ic_timeline"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:marker_size="20dp"
+                app:line_size="1dp"
+                app:line="@color/colorLine"/>
+
+            <TextView
+                android:textColor="@color/colorLine"
+                android:text="16 PM"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Meeting UI/UX"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="15dp"
+                    android:paddingLeft="20dp"
+                    android:text="Mobile App"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <com.vipul.hp_hp.timelineview.TimelineView
+                android:paddingLeft="30dp"
+                app:marker="@mipmap/ic_timeline"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:marker_size="20dp"
+                app:line_size="1dp"
+                app:line="@color/colorLine"/>
+
+            <TextView
+                android:textColor="@color/colorLine"
+                android:text="16 PM"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Meeting UI/UX"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="15dp"
+                    android:paddingLeft="20dp"
+                    android:text="Mobile App"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>
